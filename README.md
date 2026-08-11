@@ -1,11 +1,14 @@
 <h2 align="center">HF 6-Band Preselector – RF Frontend</h4>
 
+
 This project is a 6-band HF RF preselector designed to improve the selectivity and dynamic performance of HF receivers, particularly homebrew and direct-conversion receivers.
 
+<p align="center">
+  <img src="https://github.com/loscorpione/HF_6-Band_Preselector-RF_Frontend/blob/main/Hardware/Immagini/Foto%20preselettore.jpg" width="700">
+</p>
+
 The preselector covers the frequency range from 200 kHz to 30 MHz through six LC band-pass filters. The appropriate filter is selected automatically according to the band selected on the VFO.
-
 The project was developed as an RF frontend for my ESP32 + Si5351 VFO/BFO, creating an integrated and automatically controlled RF signal chain.
-
 In addition to the band-pass filters, the board includes a selectable 0 / -20 dB RF attenuator, controlled directly by the VFO.
 
 <h2 align="center">🎬 Video del progetto</h2>
@@ -60,5 +63,17 @@ Working prototype – further RF optimization planned.
 
 This repository contains the hardware design files, documentation and test information for the project.
 
-By ScorpioneMaker
-Electronics • RF • Amateur Radio • DIY
+<h2 align="center">⚠️ Disclaimer</h2>
+
+This project is intended for educational, experimental and amateur-radio purposes.
+RF circuits can behave differently depending on component tolerances, PCB construction, wiring, grounding and measurement equipment.
+Always verify the circuit and its behavior before connecting it to valuable radio equipment.
+
+<h2 align="center">📄 License</h2>
+
+The licensing terms for this project are currently being finalized.
+The original filter design is based on the work of Dian Kurniawan, which in turn references the work of Matti Hohtola (OH7SV).
+Commercial use or commercial redistribution of this implementation is not authorized while the final licensing terms are being established.
+
+ScorpioneMaker
+
