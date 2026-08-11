@@ -1,4 +1,4 @@
-HF 6-Band Preselector – RF Frontend
+<h2 align="center">HF 6-Band Preselector – RF Frontend</h4>
 
 This project is a 6-band HF RF preselector designed to improve the selectivity and dynamic performance of HF receivers, particularly homebrew and direct-conversion receivers.
 
@@ -8,7 +8,15 @@ The project was developed as an RF frontend for my ESP32 + Si5351 VFO/BFO, creat
 
 In addition to the band-pass filters, the board includes a selectable 0 / -20 dB RF attenuator, controlled directly by the VFO.
 
-Frequency coverage
+<h2 align="center">🎬 Video del progetto</h2>
+
+<p align="center">
+  <a href="https://youtu.be/RLuy1z0uWSg">
+    <img src="https://img.youtube.com/vi/hL2VTXRHFpw/maxresdefault.jpg" width="700">
+  </a>
+</p>
+
+<h2 align="center">📻 Frequency coverage</h2>
 Filter	Frequency range	Main applications
 1	0.2 – 1 MHz	Long Wave, Medium Wave, 630 m
 2	1 – 2 MHz	Medium Wave, 160 m
@@ -16,29 +24,25 @@ Filter	Frequency range	Main applications
 4	4 – 8 MHz	40 m, Short Wave
 5	8 – 15 MHz	30 m, 20 m, Short Wave
 6	15 – 30 MHz	17 m, 15 m, 12 m, 10 m, Short Wave
-Filter switching
+
+<h2 align="center">🔛Filter Switching</h2>
 
 The six filters are selected using RF relays controlled by a CD4028 decoder and an ULN2003 Darlington transistor array.
-
 The VFO sends the selected band information to the CD4028, which activates the corresponding output. The ULN2003 then drives the relay coil, allowing the correct RF filter to be connected.
-
 This approach reduces the number of control lines required between the VFO and the RF frontend while keeping the RF switching section simple and reliable.
 
-RF attenuator
+<h2 align="center">📻 RF Attenuator</h2>
 
 The board also includes a selectable 0 / -20 dB attenuator based on a 50 Ω resistive network.
-
 The attenuator can be controlled directly from the VFO and can be useful when the receiver is overloaded by strong signals or out-of-band energy.
 
-Testing
+<h2 align="center">🔌 Testing</h2>
 
 The filters were tested using a NanoVNA, measuring their frequency response, insertion loss and bandwidth.
-
 The measured responses do not perfectly match the calculated values. The differences are most likely related to component tolerances, particularly the inductors.
-
 Further adjustments to the filter component values are therefore planned to improve the correspondence between the calculated and measured responses.
 
-Hardware
+<h2 align="center">🛠️ Hardware</h2>
 
 The PCB was designed with particular attention to RF layout:
 
@@ -52,7 +56,9 @@ Status
 
 Working prototype – further RF optimization planned.
 
+<h2 align="center"></h2>
+
 This repository contains the hardware design files, documentation and test information for the project.
 
-Project by ScorpioneMaker
+By ScorpioneMaker
 Electronics • RF • Amateur Radio • DIY
