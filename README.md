@@ -8,6 +8,12 @@ The project was developed as an RF frontend for my ESP32 + Si5351 VFO/BFO, creat
 
 In addition to the band-pass filters, the board includes a selectable 0 / -20 dB RF attenuator, controlled directly by the VFO.
 
+## 🎬 Video del progetto
+
+[![HF 6-Band Preselector](https://img.youtube.com/vi/hL2VTXRHFpw/maxresdefault.jpg)](https://youtu.be/hL2VTXRHFpw)
+
+▶️ **Guarda il video completo su YouTube**
+
 Frequency coverage
 Filter	Frequency range	Main applications
 1	0.2 – 1 MHz	Long Wave, Medium Wave, 630 m
