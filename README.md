@@ -1,4 +1,4 @@
-HF 6-Band Preselector – RF Frontend
+<h2 align="center">HF 6-Band Preselector – RF Frontend</h2>
 
 This project is a 6-band HF RF preselector designed to improve the selectivity and dynamic performance of HF receivers, particularly homebrew and direct-conversion receivers.
 
