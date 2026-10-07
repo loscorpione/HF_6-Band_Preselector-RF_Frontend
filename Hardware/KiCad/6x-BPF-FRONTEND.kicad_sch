@@ -12822,7 +12822,7 @@
 		(dnp no)
 		(uuid "894259f5-50c5-42c7-a96d-6d79a3b2a9e5")
 		(property "Reference" "C13"
-			(at 211.836 52.07 0)
+			(at 210.82 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14276,7 @@
 				)
 			)
 		)
-		(property "Value" "180uF"
+		(property "Value" "180pF"
 			(at 234.442 47.752 90)
 			(effects
 				(font
@@ -14343,7 +14343,7 @@
 				)
 			)
 		)
-		(property "Value" "180uF"
+		(property "Value" "180pF"
 			(at 234.442 59.436 90)
 			(effects
 				(font
@@ -17661,7 +17661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10nF"
 			(at 117.094 54.61 0)
 			(effects
 				(font
