@@ -14,7 +14,7 @@ In addition to the band-pass filters, the board includes a selectable 0 / -20 dB
 <h2 align="center">🎬 Video del progetto</h2>
 
 <p align="center">
-  <a href="https://youtu.be/RLuy1z0uWSg">
+  <a href="https://youtu.be/hL2VTXRHFpw">
     <img src="https://img.youtube.com/vi/hL2VTXRHFpw/maxresdefault.jpg" width="700">
   </a>
 </p>
