@@ -10234,7 +10234,7 @@
 				)
 			)
 		)
-		(property "Value" "12.2nF"
+		(property "Value" "10+2.2 nF"
 			(at 146.05 56.388 90)
 			(effects
 				(font
@@ -12762,7 +12762,7 @@
 				)
 			)
 		)
-		(property "Value" "1.22nF"
+		(property "Value" "1nF+220pF"
 			(at 144.78 103.378 90)
 			(effects
 				(font
