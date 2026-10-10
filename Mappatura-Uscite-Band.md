@@ -104,4 +104,3 @@ Dopo aver modificato e caricato il firmware:
 - Controllare che venga attivato il filtro corrispondente.
 - Provare anche frequenze inferiori a 200 kHz e superiori a 30 MHz per verificare la condizione fuori banda.
 
-Per maggiori informazioni sul circuito RF e sul relativo sistema di selezione, consultare il [repository HF 6-Band Preselector RF Frontend](https://github.com/loscorpione/HF-6-Band_Preselector-RF_Frontend).
