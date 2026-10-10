@@ -24,14 +24,14 @@ Per ogni filtro vengono definiti un limite inferiore e un limite superiore. Quan
 
 La configurazione di esempio prevede sei filtri passa-banda e una condizione aggiuntiva per le frequenze fuori banda.
 
-| Frequenza selezionata | Codice binario | Banda |
+| Banda di Frequenza | Codice binario | Filtro |
 |---|---|---|
-| 200 kHz – 1 MHz | `000` | Filtro 1 |
-| 1 – 2 MHz | `001` | Filtro 2 |
-| 2 – 4 MHz | `010` | Filtro 3 |
-| 4 – 8 MHz | `011` | Filtro 4 |
-| 8 – 15 MHz | `100` | Filtro 5 |
-| 15 – 30 MHz | `101` | Filtro 6 |
+| 200 kHz – 1 MHz | `000` | Filtro 01 |
+| 1 – 2 MHz | `001` | Filtro 02 |
+| 2 – 4 MHz | `010` | Filtro 03 |
+| 4 – 8 MHz | `011` | Filtro 04 |
+| 8 – 15 MHz | `100` | Filtro 05 |
+| 15 – 30 MHz | `101` | Filtro 06 |
 | Fuori banda | `110` | Nessun filtro attivo |
 
 I codici binari sono quelli impostati nel firmware e devono essere compatibili con il circuito digitale di decodifica del preselettore.
