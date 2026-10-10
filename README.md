@@ -11,6 +11,7 @@ The preselector covers the frequency range from 200 kHz to 30 MHz through six LC
 The project was developed as an RF frontend for my ESP32 + Si5351 VFO/BFO, creating an integrated and automatically controlled RF signal chain.
 In addition to the band-pass filters, the board includes a selectable 0 / -20 dB RF attenuator, controlled directly by the VFO.
 
+
 <h2 align="center">🎬 Video del progetto</h2>
 
 <p align="center">
@@ -33,6 +34,11 @@ Filter	Frequency range	Main applications
 The six filters are selected using RF relays controlled by a CD4028 decoder and an ULN2003 Darlington transistor array.
 The VFO sends the selected band information to the CD4028, which activates the corresponding output. The ULN2003 then drives the relay coil, allowing the correct RF filter to be connected.
 This approach reduces the number of control lines required between the VFO and the RF frontend while keeping the RF switching section simple and reliable.
+
+## Integrazione con il VFO/BFO
+
+- [Mappatura delle uscite digitali per la selezione dei filtri](Mappatura-Uscite-Band.md)
+- [Repository VFO/BFO HF ESP32 + Si5351](https://github.com/loscorpione/VFO-BFO-HF-ESP32-Si5351)
 
 <h2 align="center">📻 RF Attenuator</h2>
 
