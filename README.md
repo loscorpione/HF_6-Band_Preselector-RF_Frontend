@@ -35,10 +35,10 @@ The six filters are selected using RF relays controlled by a CD4028 decoder and 
 The VFO sends the selected band information to the CD4028, which activates the corresponding output. The ULN2003 then drives the relay coil, allowing the correct RF filter to be connected.
 This approach reduces the number of control lines required between the VFO and the RF frontend while keeping the RF switching section simple and reliable.
 
-## Integrazione con il VFO/BFO
+<h2 align="center">🛠️ Integrazione con il VFO/BFO</h2>
 
 - [Mappatura delle uscite digitali per la selezione dei filtri](Mappatura-Uscite-Band.md)
-- [Repository VFO/BFO HF ESP32 + Si5351](https://github.com/loscorpione/VFO-BFO-HF-ESP32-Si5351)
+
 
 <h2 align="center">📻 RF Attenuator</h2>
 
